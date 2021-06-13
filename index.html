@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Update Form</title>
+    <style>
+        span {
+            color: red;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        * {
+            margin: 2px 1px 2px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(255, 240, 252);">
+        <div style="background-color: brown; color: white;">
+            <h5 style="text-align: center;">Request For New PAN Card Or/And Changes or Correction in PAN Data</h5>
+            <p style="font-style: italic;  text-align: center;">Fields marked with <span>*</span>(asterisk) are
+                mandatory. To avoid mistake(s), please refer <a href="https://tin.tin.nsdl.com/pan/form49Adsc.html"
+                    style="color: orange;" target="_blank">guidelines </a>and <a
+                    href="https://tin.tin.nsdl.com/pan/InstructionsCorr.html" style="color: orange;"
+                    target="_blank">instructions</a></p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width: 100%;">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <div style="display: inline;"><span>*</span>Whether citizen of India
+                            <label for="Yes" style="padding-left: 70px;">yes</label>
+                            <input type="radio" name="citizen" id="Yes">
+
+                            <label for="No" style="padding-left: 20px;">no</label>
+                            <input type="radio" name="citizen" id="No">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <label for="PAN"><span>*</span>Permanent Account Number (PAN)</label>
+                        <input type="text" name="PAN" id="PAN">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="" id="">
+                    </td>
+                    <td>
+                        <p><span>*</span>1.Name</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <div style="display: inline;">Title
+                            <label for="Shri" style="padding-left: 60px;">Shri/Mr</label>
+                            <input type="radio" name="Title" id="Shri">
+
+                            <label for="Smt" style="padding-left: 20px;">Smt./Mrs.</label>
+                            <input type="radio" name="Title" id="Smt">
+
+                            <label for="Kumari" style="padding-left: 20px;">kumari/Ms</label>
+                            <input type="radio" name="Title" id="kumari">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <div style="display: inline;">
+                            <label for="LastName">Last Name/Surname</label>
+                            <label for="FirstName" style="padding-left: 60px;">First Name</label>
+                            <label for="MiddleName" style="padding-left: 120px;">Middle Name</label><br>
+                            <input type="text" name="LastName" id="LastName">
+                            <input type="text" name="FirstName" id="FirstName">
+                            <input type="text" name="MiddleName" id="MiddleName">
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
